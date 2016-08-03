@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Andrew J Lenards
+#	email = lenards@nux.local
+[core]
+	editor = emacs
+[user]
+	name = Andrew Lenards
+	email = andrew.lenards@gmail.com
+[color]
+	ui = true
+	branch = true
+	diff = true
+	interactive = true
+	status = true
+[gui]
+	recentrepo = /Users/lenards/devel/troposphere
