@@ -6,10 +6,6 @@ if [ -f "$BASH_CMDS/bash-git-prompt/gitprompt.sh" ]; then
     . "$HOME/.bash-cmds/bash-git-prompt/gitprompt.sh"
 fi
 
-if [ -f "$BASH_CMDS/bd/bd" ]; then
-    . "$BASH_CMDS/bd/bd"
-fi
-
 if [ -f "$BASH_CMDS/commacd/commacd.bash" ]; then
     . "$BASH_CMDS/commacd/commacd.bash"
 fi

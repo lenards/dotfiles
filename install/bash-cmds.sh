@@ -15,3 +15,10 @@ for repo in "${repos[@]}"
 do
     git clone $repo --depth 1
 done
+
+popd
+
+mkdir "$HOME/bin"
+
+ln -sfv "$HOME/.bash-cmds/bd/bd" "$HOME/bin/bd"
+ln -sfv "$HOME/.bash-cmds/ansiweather/ansiweather" "$HOME/bin/ansiweather"
