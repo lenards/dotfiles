@@ -7,5 +7,5 @@ packages=(
 )
 
 if [ "$(uname -s)" = "Linux" ]; then
-    sudo apt-get install "${packages[@]}"
+    sudo apt-get install -y "${packages[@]}"
 fi
