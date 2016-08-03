@@ -20,6 +20,8 @@ ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 
 #. "$DOTFILES_DIR/install/brew.sh"
 #. "$DOTFILES_DIR/install/bash.sh"
+. "$DOTFILES_DIR/install/apt.sh"
+. "$DOTFILES_DIR/install/bash-cmds.sh"
 . "$DOTFILES_DIR/install/npm.sh"
 #. "$DOTFILES_DIR/install/pip.sh"
 

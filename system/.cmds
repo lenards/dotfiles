@@ -1,0 +1,15 @@
+
+BASH_CMDS="$HOME/.bash-cmds"
+
+if [ -f "$BASH_CMDS/bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_THEME=Default
+    . "$HOME/.bash-cmds/bash-git-prompt/gitprompt.sh"
+fi
+
+if [ -f "$BASH_CMDS/bd/bd" ]; then
+    . "$BASH_CMDS/bd/bd"
+fi
+
+if [ -f "$BASH_CMDS/commacd/commacd.bash" ]; then
+    . "$BASH_CMDS/commacd/commacd.bash"
+fi
