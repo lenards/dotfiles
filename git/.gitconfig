@@ -4,9 +4,9 @@
 #	name = Andrew J Lenards
 #	email = lenards@nux.local
 [core]
-	editor = emacs
+	editor = emacs -nw --no-init-file --no-site-file --load ~/.emacs.d/minimal.el
 [user]
-	name = Andrew Lenards
+	name = Andrew J Lenards
 	email = andrew.lenards@gmail.com
 [color]
 	ui = true
