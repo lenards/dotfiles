@@ -40,8 +40,8 @@ done
 # fi
 
 # Set LSCOLORS
-
-eval "$(dircolors "$DOTFILES_DIR"/system/.dir_colors)"
+DIRCOLORS=$(which gdircolors || which dircolors)
+eval "$($DIRCOLORS "$DOTFILES_DIR"/system/.dir_colors)"
 
 # Hook for extra/custom stuff
 
@@ -57,7 +57,7 @@ fi
 
 # Clean up
 
-unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
+unset READLINK DIRCOLORS CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 
 # Export
 
