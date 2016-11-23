@@ -53,6 +53,10 @@ meteo() {
   curl -4 "wttr.in/$CITY"
 }
 
+moon-phase() {
+  curl -4 "wttr.in/Moon"
+}
+
 # Colorize man
 
 man() {
