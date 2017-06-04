@@ -48,6 +48,12 @@ alias tree2="tree -d -L 2"
 
 alias cpwd='pwd|tr -d "\n"|pbcopy'
 
+# disk usage / filesystem
+
+alias top10="du -a * | sort -r -n | head -10"
+alias top20="du -a * | sort -r -n | head -20"
+# from Alvin Alexander: http://alvinalexander.com/mac-os-x/how-to-show-largest-files-folders-under-directory-osx-unix
+
 # rsync
 
 alias rsync="rsync -vh"
