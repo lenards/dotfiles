@@ -1,6 +1,7 @@
 
 packages=(
     jq
+    bc
     lnav
     emacs
     yaml-mode
