@@ -1,4 +1,8 @@
 # This is Git's per-user configuration file.
+#
+# If you need to find with this file is on a system:
+#   `git config --list --show-origin`
+#
 [user]
 # Please adapt and uncomment the following lines:
 #	name = Andrew J Lenards
